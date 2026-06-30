@@ -1,5 +1,5 @@
 locals {
-  name = "${var.prefix}"
+  name = var.prefix
 }
 
 resource "azurerm_resource_group" "rg" {
